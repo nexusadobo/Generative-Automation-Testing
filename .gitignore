@@ -12,7 +12,7 @@ yarn.lock
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-
+**/.features-gen/**/*.spec.js
 # Archivos de cobertura
 coverage/
 
