@@ -1,0 +1,40 @@
+{
+  "editor.insertSpaces": true,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  // Configuración específica para TypeScript
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // Configuración para Playwright
+  "playwright.reuseBrowser": false,
+  "playwright.showTrace": false,
+  // Configuración de archivos
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/test-results": true,
+    "**/playwright-report": true,
+    "**/.DS_Store": true
+  },
+  // Asociaciones de archivos
+  "files.associations": {
+    "*.spec.ts": "typescript",
+    "playwright.config.ts": "typescript"
+  },
+  // Configuración de búsqueda
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/test-results": true,
+    "**/playwright-report": true
+  },
+  // Configuración del explorador
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.d.ts, ${capture}.js.map"
+  }
+}
